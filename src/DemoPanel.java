@@ -103,7 +103,7 @@ public class DemoPanel extends JPanel {
         node.costTotal = node.costStart + node.costGoal;
 
         if (!node.equals(startNode) && !node.equals(goalNode)) {
-            node.setText(String.valueOf(node.costStart)+ " + " + String.valueOf(node.costStart));
+            node.setText("<html>Custo:<br>" + String.valueOf(node.costStart)+ " + " + String.valueOf(node.costStart) + "</html>");
         }
 
     }

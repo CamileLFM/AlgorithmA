@@ -30,7 +30,7 @@ public class Node extends JButton implements ActionListener{
     public void setAsStart() {
         setBackground(Color.blue);
         setForeground(Color.white);
-        setText("<html>Start" + "<br>" + "+ Enter</html>");
+        setText("<html>Press Enter<br> to<br> Start</html>");
         start = true;
     }
 
